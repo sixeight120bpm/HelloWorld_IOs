@@ -56,6 +56,7 @@
 		F277555A2735C65200493C07 /* HelloWorld_IOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorld_IOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F277555E2735C65200493C07 /* HelloWorld_IOsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld_IOsUITests.m; sourceTree = "<group>"; };
 		F27755602735C65200493C07 /* HelloWorld_IOsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld_IOsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		F277556D2735CBF600493C07 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 				F27755492735C65200493C07 /* Info.plist */,
 				F277554A2735C65200493C07 /* main.m */,
 				F27755412735C65100493C07 /* HelloWorld_IOs.xcdatamodeld */,
+				F277556D2735CBF600493C07 /* MyClass.h */,
 			);
 			path = HelloWorld_IOs;
 			sourceTree = "<group>";

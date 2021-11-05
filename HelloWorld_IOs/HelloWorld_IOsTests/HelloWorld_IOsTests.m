@@ -6,16 +6,9 @@
 //
 
 #import <XCTest/XCTest.h>
-@interface MyClass : NSObject
-- (int) MySum:( int )firstNumber secondNumber:( int )secondNumber;
-@end
-@implementation MyClass
+#import "MyClass.h"
 
-- (int) MySum:( int )firstNumber secondNumber:( int )secondNumber {
-    return firstNumber + secondNumber;
-}
-
-@end@interface HelloWorld_IOsTests : XCTestCase
+@interface HelloWorld_IOsTests : XCTestCase
 
 @end
 
@@ -56,7 +49,7 @@
     //act
     c = [myClass MySum:a secondNumber:b];
     //assert
-    XCTAssert(c = 5);
+    XCTAssert(c == 5);
 }
 
 @end
