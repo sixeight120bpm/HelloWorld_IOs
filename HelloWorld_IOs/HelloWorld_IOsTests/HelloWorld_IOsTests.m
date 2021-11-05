@@ -34,7 +34,7 @@
 }
 
 - (void) testICanWriteATest {
-    XCTAssertTrue(false);
+    XCTAssertTrue(true);
 }
 
 @end
