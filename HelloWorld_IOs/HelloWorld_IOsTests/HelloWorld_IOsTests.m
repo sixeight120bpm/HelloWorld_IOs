@@ -33,4 +33,8 @@
     }];
 }
 
+- (void) testICanWriteATest {
+    XCTAssertTrue(true);
+}
+
 @end
