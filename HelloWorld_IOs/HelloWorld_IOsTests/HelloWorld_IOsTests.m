@@ -52,7 +52,11 @@
 
 - (void) testMyClassCanSayHello {
     NSString *hello;
-    hello = @"Hello World!";
+
+    MyClass *myClass = [[MyClass alloc] init];
+    //act
+    hello = [myClass GetHelloString];
+    
     XCTAssertTrue([hello isEqualToString:@"Hello World!"]);
 }
 
