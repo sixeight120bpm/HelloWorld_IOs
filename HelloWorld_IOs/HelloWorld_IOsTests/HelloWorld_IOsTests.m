@@ -52,7 +52,7 @@
 
 - (void) testMyClassCanSayHello {
     NSString *hello;
-    
+    hello = @"Hello World!";
     XCTAssertTrue([hello isEqualToString:@"Hello World!"]);
 }
 
