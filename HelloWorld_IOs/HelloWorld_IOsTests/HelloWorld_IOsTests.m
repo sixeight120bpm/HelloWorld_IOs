@@ -6,8 +6,16 @@
 //
 
 #import <XCTest/XCTest.h>
+@interface MyClass : NSObject
+- (int) MySum:( int )firstNumber secondNumber:( int )secondNumber;
+@end
+@implementation MyClass
 
-@interface HelloWorld_IOsTests : XCTestCase
+- (int) MySum:( int )firstNumber secondNumber:( int )secondNumber {
+    return firstNumber + secondNumber;
+}
+
+@end@interface HelloWorld_IOsTests : XCTestCase
 
 @end
 
@@ -37,15 +45,21 @@
     XCTAssertTrue(true);
 }
 
+
+
 - (void) testMyClassCanAddTwoNumbers {
     //arrange
     int a = 2;
     int b = 3;
     int c;
+    MyClass *myClass = [[MyClass alloc] init];
     //act
-    c = a + b;
+    c = [myClass MySum:a secondNumber:b];
     //assert
     XCTAssert(c = 5);
 }
 
 @end
+
+
+
