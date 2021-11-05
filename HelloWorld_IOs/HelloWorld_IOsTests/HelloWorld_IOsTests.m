@@ -37,4 +37,15 @@
     XCTAssertTrue(true);
 }
 
+- (void) testMyClassCanAddTwoNumbers {
+    //arrange
+    int a = 2;
+    int b = 3;
+    int c;
+    //act
+    
+    //assert
+    XCTAssert(c = 5);
+}
+
 @end
