@@ -38,8 +38,6 @@
     XCTAssertTrue(true);
 }
 
-
-
 - (void) testMyClassCanAddTwoNumbers {
     //arrange
     int a = 2;
@@ -50,6 +48,12 @@
     c = [myClass MySum:a secondNumber:b];
     //assert
     XCTAssert(c == 5);
+}
+
+- (void) testMyClassCanSayHello {
+    NSString *hello;
+    
+    XCTAssertTrue([hello isEqualToString:@"Hello World!"]);
 }
 
 @end
