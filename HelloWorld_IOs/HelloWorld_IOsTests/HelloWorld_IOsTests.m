@@ -43,7 +43,7 @@
     int b = 3;
     int c;
     //act
-    
+    c = a + b;
     //assert
     XCTAssert(c = 5);
 }
