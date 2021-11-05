@@ -6,6 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "MyClass.h"
 
 @interface HelloWorld_IOsTests : XCTestCase
 
@@ -37,4 +38,21 @@
     XCTAssertTrue(true);
 }
 
+
+
+- (void) testMyClassCanAddTwoNumbers {
+    //arrange
+    int a = 2;
+    int b = 3;
+    int c;
+    MyClass *myClass = [[MyClass alloc] init];
+    //act
+    c = [myClass MySum:a secondNumber:b];
+    //assert
+    XCTAssert(c == 5);
+}
+
 @end
+
+
+
