@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F21560CA2737349700031EDC /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F21560C92737349700031EDC /* MyClass.m */; };
+		F21560CB2737349700031EDC /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F21560C92737349700031EDC /* MyClass.m */; };
+		F21560CC2737349700031EDC /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F21560C92737349700031EDC /* MyClass.m */; };
 		F27755372735C65100493C07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F27755362735C65100493C07 /* AppDelegate.m */; };
 		F277553A2735C65100493C07 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F27755392735C65100493C07 /* SceneDelegate.m */; };
 		F277553D2735C65100493C07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F277553C2735C65100493C07 /* ViewController.m */; };
@@ -38,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F21560C92737349700031EDC /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		F27755322735C65100493C07 /* HelloWorld_IOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld_IOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27755352735C65100493C07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F27755362735C65100493C07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 				F277554A2735C65200493C07 /* main.m */,
 				F27755412735C65100493C07 /* HelloWorld_IOs.xcdatamodeld */,
 				F277556D2735CBF600493C07 /* MyClass.h */,
+				F21560C92737349700031EDC /* MyClass.m */,
 			);
 			path = HelloWorld_IOs;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21560CA2737349700031EDC /* MyClass.m in Sources */,
 				F277554B2735C65200493C07 /* main.m in Sources */,
 				F277553D2735C65100493C07 /* ViewController.m in Sources */,
 				F27755432735C65100493C07 /* HelloWorld_IOs.xcdatamodeld in Sources */,
@@ -283,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21560CB2737349700031EDC /* MyClass.m in Sources */,
 				F27755552735C65200493C07 /* HelloWorld_IOsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21560CC2737349700031EDC /* MyClass.m in Sources */,
 				F27755612735C65200493C07 /* HelloWorld_IOsUITestsLaunchTests.m in Sources */,
 				F277555F2735C65200493C07 /* HelloWorld_IOsUITests.m in Sources */,
 			);
