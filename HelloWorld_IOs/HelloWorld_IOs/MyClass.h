@@ -12,16 +12,6 @@
 - (int) MySum:( int )firstNumber secondNumber:( int )secondNumber;
 - (NSString*) GetHelloString;
 @end
-@implementation MyClass
 
-- (int) MySum:( int )firstNumber secondNumber:( int )secondNumber {
-    return firstNumber + secondNumber;
-}
-
-- (NSString*) GetHelloString{
-    return @"Hello World!";
-}
-
-@end
 #endif /* MyClass_h */
 	
